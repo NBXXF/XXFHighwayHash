@@ -1,7 +1,7 @@
 import Bridge
 import Foundation
 
-public struct HighwayHash: ~Copyable {
+public struct HighwayHash {
 
   public init(seed: Seed) {
     self.seed = seed
